@@ -47,10 +47,12 @@
       .container div.loginTitle{
         text-align: center;
         margin: 0px auto 10px auto;
-        width: 100%;
+        width: %;
         display: block;
         font-family: 'cabin', sans-serif;
         border-radius: 4px;
+        font-size: 1.3em;
+        border-bottom: 2px solid white;
       }
       .container div.loginTitle span.cross{
         border-radius: 30%;
@@ -87,6 +89,7 @@
         font-size: 1.25em;
         letter-spacing: 1px;
         font-family: 'Roboto', sans-serif;
+        border-radius:6px;
 
       }
       .container div.input_block input[type=submit]:hover{
@@ -128,7 +131,7 @@
       Demo de Menú Login
     </div>
     <div class="container">
-      <form action="validacion.php" method="post" target="_blank" id="login_user" >
+      <form action="validacion.php" method="post" target="_self" id="login_user" >
         <div class="loginTitle">
           Inicio de cuenta: <span class="cross"> ✖ </span>
         </div>
